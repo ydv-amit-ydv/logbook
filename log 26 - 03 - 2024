@@ -1,0 +1,720 @@
+Microsoft Windows [Version 10.0.19045.4170]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\lilia\Documents\GitHub>date /t & time /t
+26-03-2024
+15:17
+
+C:\Users\lilia\Documents\GitHub>git clone https://github.com/petermr/pyamihtml.git
+Cloning into 'pyamihtml'...
+remote: Enumerating objects: 29485, done.
+remote: Counting objects: 100% (5539/5539), done.
+remote: Compressing objects: 100% (2811/2811), done.
+remote: Total 29485 (delta 2540), reused 5435 (delta 2498), pack-reused 23946
+Receiving objects: 100% (29485/29485), 541.33 MiB | 3.02 MiB/s, done.
+Resolving deltas: 100% (11053/11053), done.
+Updating files: 100% (19912/19912), done.
+
+C:\Users\lilia\Documents\GitHub>cd C:\Users\lilia\Documents\GitHub\pyamihtml
+
+C:\Users\lilia\Documents\GitHub\pyamihtml>python setup.py install
+running install
+running bdist_egg
+running egg_info
+creating pyamihtmlx.egg-info
+writing pyamihtmlx.egg-info\PKG-INFO
+writing dependency_links to pyamihtmlx.egg-info\dependency_links.txt
+writing entry points to pyamihtmlx.egg-info\entry_points.txt
+writing requirements to pyamihtmlx.egg-info\requires.txt
+writing top-level names to pyamihtmlx.egg-info\top_level.txt
+writing manifest file 'pyamihtmlx.egg-info\SOURCES.txt'
+adding license file 'LICENSE' (matched pattern 'LICEN[CS]E*')
+reading manifest file 'pyamihtmlx.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'py4ami\resources'
+warning: no files found matching 'py4ami\config.ini'
+warning: no files found matching 'py4ami\pyami.ini'
+writing manifest file 'pyamihtmlx.egg-info\SOURCES.txt'
+installing library code to build\bdist.win-amd64\egg
+running install_lib
+running build_py
+creating build
+creating build\lib
+creating build\lib\pyamihtmlx
+copying pyamihtmlx\ami_bib.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\ami_config.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\ami_html.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\ami_integrate.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\ami_nlp.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\ami_pdf.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\ami_pdf_libs.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\ami_svg.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\ami_util.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\bbox_copy.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\display.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\file_lib.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\get_endpoint_html.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\html_marker.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\ipcc.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\pyamix.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\un.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\util.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\wikimedia.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\xml_lib.py -> build\lib\pyamihtmlx
+copying pyamihtmlx\__init__.py -> build\lib\pyamihtmlx
+creating build\bdist.win-amd64
+creating build\bdist.win-amd64\egg
+creating build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ami_bib.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ami_config.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ami_html.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ami_integrate.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ami_nlp.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ami_pdf.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ami_pdf_libs.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ami_svg.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ami_util.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\bbox_copy.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\display.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\file_lib.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\get_endpoint_html.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\html_marker.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\ipcc.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\pyamix.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\un.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\util.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\wikimedia.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\xml_lib.py -> build\bdist.win-amd64\egg\pyamihtmlx
+copying build\lib\pyamihtmlx\__init__.py -> build\bdist.win-amd64\egg\pyamihtmlx
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ami_bib.py to ami_bib.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ami_config.py to ami_config.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ami_html.py to ami_html.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ami_integrate.py to ami_integrate.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ami_nlp.py to ami_nlp.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ami_pdf.py to ami_pdf.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ami_pdf_libs.py to ami_pdf_libs.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ami_svg.py to ami_svg.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ami_util.py to ami_util.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\bbox_copy.py to bbox_copy.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\display.py to display.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\file_lib.py to file_lib.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\get_endpoint_html.py to get_endpoint_html.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\html_marker.py to html_marker.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\ipcc.py to ipcc.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\pyamix.py to pyamix.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\un.py to un.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\util.py to util.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\wikimedia.py to wikimedia.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\xml_lib.py to xml_lib.cpython-38.pyc
+byte-compiling build\bdist.win-amd64\egg\pyamihtmlx\__init__.py to __init__.cpython-38.pyc
+creating build\bdist.win-amd64\egg\EGG-INFO
+copying pyamihtmlx.egg-info\PKG-INFO -> build\bdist.win-amd64\egg\EGG-INFO
+copying pyamihtmlx.egg-info\SOURCES.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying pyamihtmlx.egg-info\dependency_links.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying pyamihtmlx.egg-info\entry_points.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying pyamihtmlx.egg-info\not-zip-safe -> build\bdist.win-amd64\egg\EGG-INFO
+copying pyamihtmlx.egg-info\requires.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying pyamihtmlx.egg-info\top_level.txt -> build\bdist.win-amd64\egg\EGG-INFO
+creating dist
+creating 'dist\pyamihtmlx-0.1.7a3-py3.8.egg' and adding 'build\bdist.win-amd64\egg' to it
+removing 'build\bdist.win-amd64\egg' (and everything under it)
+Processing pyamihtmlx-0.1.7a3-py3.8.egg
+creating c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages\pyamihtmlx-0.1.7a3-py3.8.egg
+Extracting pyamihtmlx-0.1.7a3-py3.8.egg to c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Adding pyamihtmlx 0.1.7a3 to easy-install.pth file
+Installing pyamihtmlx-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing pyamihtmlx.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Installed c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages\pyamihtmlx-0.1.7a3-py3.8.egg
+Processing dependencies for pyamihtmlx==0.1.7a3
+Searching for scikit-learn==1.3.2
+Best match: scikit-learn 1.3.2
+Adding scikit-learn 1.3.2 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for webdriver-manager==4.0.1
+Best match: webdriver-manager 4.0.1
+Adding webdriver-manager 4.0.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for selenium==4.17.2
+Best match: selenium 4.17.2
+Adding selenium 4.17.2 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pandas==1.3.4
+Best match: pandas 1.3.4
+Adding pandas 1.3.4 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for numpy==1.24.3
+Best match: numpy 1.24.3
+Adding numpy 1.24.3 to easy-install.pth file
+Installing f2py-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing f2py.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pyvis==0.3.2
+Best match: pyvis 0.3.2
+Adding pyvis 0.3.2 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for requests==2.31.0
+Best match: requests 2.31.0
+Adding requests 2.31.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pdfplumber==0.10.3
+Best match: pdfplumber 0.10.3
+Adding pdfplumber 0.10.3 to easy-install.pth file
+Installing pdfplumber-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing pdfplumber.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for setuptools==56.0.0
+Best match: setuptools 56.0.0
+Adding setuptools 56.0.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pillow==10.2.0
+Best match: pillow 10.2.0
+Adding pillow 10.2.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pdfminer3==2018.12.3.0
+Best match: pdfminer3 2018.12.3.0
+Adding pdfminer3 2018.12.3.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for nltk==3.6.7
+Best match: nltk 3.6.7
+Adding nltk 3.6.7 to easy-install.pth file
+Installing nltk-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing nltk.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for lxml==4.7.1
+Best match: lxml 4.7.1
+Adding lxml 4.7.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for scipy==1.10.1
+Best match: scipy 1.10.1
+Adding scipy 1.10.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for threadpoolctl==3.2.0
+Best match: threadpoolctl 3.2.0
+Adding threadpoolctl 3.2.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for joblib==1.3.2
+Best match: joblib 1.3.2
+Adding joblib 1.3.2 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for packaging==23.2
+Best match: packaging 23.2
+Adding packaging 23.2 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for python-dotenv==1.0.1
+Best match: python-dotenv 1.0.1
+Adding python-dotenv 1.0.1 to easy-install.pth file
+Installing dotenv-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing dotenv.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for trio-websocket==0.11.1
+Best match: trio-websocket 0.11.1
+Adding trio-websocket 0.11.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for certifi==2023.11.17
+Best match: certifi 2023.11.17
+Adding certifi 2023.11.17 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for urllib3==2.1.0
+Best match: urllib3 2.1.0
+Adding urllib3 2.1.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for trio==0.24.0
+Best match: trio 0.24.0
+Adding trio 0.24.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for typing-extensions==4.9.0
+Best match: typing-extensions 4.9.0
+Adding typing-extensions 4.9.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pytz==2023.3.post1
+Best match: pytz 2023.3.post1
+Adding pytz 2023.3.post1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for python-dateutil==2.7.5
+Best match: python-dateutil 2.7.5
+Adding python-dateutil 2.7.5 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for networkx==3.1
+Best match: networkx 3.1
+Adding networkx 3.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for ipython==8.12.3
+Best match: ipython 8.12.3
+Adding ipython 8.12.3 to easy-install.pth file
+Installing ipython-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing ipython.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing ipython3-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing ipython3.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for Jinja2==3.1.3
+Best match: Jinja2 3.1.3
+Adding Jinja2 3.1.3 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for jsonpickle==3.0.2
+Best match: jsonpickle 3.0.2
+Adding jsonpickle 3.0.2 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for charset-normalizer==3.3.2
+Best match: charset-normalizer 3.3.2
+Adding charset-normalizer 3.3.2 to easy-install.pth file
+Installing normalizer-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing normalizer.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for idna==3.6
+Best match: idna 3.6
+Adding idna 3.6 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pypdfium2==4.26.0
+Best match: pypdfium2 4.26.0
+Adding pypdfium2 4.26.0 to easy-install.pth file
+Installing pypdfium2-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing pypdfium2.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pdfminer.six==20221105
+Best match: pdfminer.six 20221105
+Adding pdfminer.six 20221105 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for chardet==5.2.0
+Best match: chardet 5.2.0
+Adding chardet 5.2.0 to easy-install.pth file
+Installing chardetect-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing chardetect.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for sortedcontainers==2.4.0
+Best match: sortedcontainers 2.4.0
+Adding sortedcontainers 2.4.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pycryptodome==3.20.0
+Best match: pycryptodome 3.20.0
+Adding pycryptodome 3.20.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for regex==2023.12.25
+Best match: regex 2023.12.25
+Adding regex 2023.12.25 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for click==8.1.7
+Best match: click 8.1.7
+Adding click 8.1.7 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for tqdm==4.66.2
+Best match: tqdm 4.66.2
+Adding tqdm 4.66.2 to easy-install.pth file
+Installing tqdm-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing tqdm.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for wsproto==1.2.0
+Best match: wsproto 1.2.0
+Adding wsproto 1.2.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for exceptiongroup==1.2.0
+Best match: exceptiongroup 1.2.0
+Adding exceptiongroup 1.2.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for PySocks==1.7.1
+Best match: PySocks 1.7.1
+Adding PySocks 1.7.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for cffi==1.16.0
+Best match: cffi 1.16.0
+Adding cffi 1.16.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for attrs==23.2.0
+Best match: attrs 23.2.0
+Adding attrs 23.2.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for sniffio==1.3.0
+Best match: sniffio 1.3.0
+Adding sniffio 1.3.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for outcome==1.3.0.post0
+Best match: outcome 1.3.0.post0
+Adding outcome 1.3.0.post0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for six==1.16.0
+Best match: six 1.16.0
+Adding six 1.16.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for jedi==0.19.1
+Best match: jedi 0.19.1
+Adding jedi 0.19.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pickleshare==0.7.5
+Best match: pickleshare 0.7.5
+Adding pickleshare 0.7.5 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for traitlets==5.14.1
+Best match: traitlets 5.14.1
+Adding traitlets 5.14.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for backcall==0.2.0
+Best match: backcall 0.2.0
+Adding backcall 0.2.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for colorama==0.4.6
+Best match: colorama 0.4.6
+Adding colorama 0.4.6 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pygments==2.17.2
+Best match: pygments 2.17.2
+Adding pygments 2.17.2 to easy-install.pth file
+Installing pygmentize-script.py script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+Installing pygmentize.exe script to C:\Users\lilia\AppData\Local\Programs\Python\Python38\Scripts
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for decorator==5.1.1
+Best match: decorator 5.1.1
+Adding decorator 5.1.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for matplotlib-inline==0.1.6
+Best match: matplotlib-inline 0.1.6
+Adding matplotlib-inline 0.1.6 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for prompt-toolkit==3.0.43
+Best match: prompt-toolkit 3.0.43
+Adding prompt-toolkit 3.0.43 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for stack-data==0.6.3
+Best match: stack-data 0.6.3
+Adding stack-data 0.6.3 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for MarkupSafe==2.1.3
+Best match: MarkupSafe 2.1.3
+Adding MarkupSafe 2.1.3 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for cryptography==41.0.7
+Best match: cryptography 41.0.7
+Adding cryptography 41.0.7 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for h11==0.14.0
+Best match: h11 0.14.0
+Adding h11 0.14.0 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pycparser==2.21
+Best match: pycparser 2.21
+Adding pycparser 2.21 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for parso==0.8.3
+Best match: parso 0.8.3
+Adding parso 0.8.3 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for wcwidth==0.2.13
+Best match: wcwidth 0.2.13
+Adding wcwidth 0.2.13 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for pure-eval==0.2.2
+Best match: pure-eval 0.2.2
+Adding pure-eval 0.2.2 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for asttokens==2.4.1
+Best match: asttokens 2.4.1
+Adding asttokens 2.4.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Searching for executing==2.0.1
+Best match: executing 2.0.1
+Adding executing 2.0.1 to easy-install.pth file
+
+Using c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages
+Finished processing dependencies for pyamihtmlx==0.1.7a3
+
+C:\Users\lilia\Documents\GitHub\pyamihtml\pyamihtmlx>cd C:\Users\lilia\Documents\GitHub\pyamihtml\test
+
+C:\Users\lilia\Documents\GitHub\pyamihtml\test>python -m unittest discover -s .
+EE.EEEEEEEEE..EEEE
+======================================================================
+ERROR: test_all (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_all
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_all.py", line 19, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_display (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_display
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_display.py", line 7, in <module>
+    from test.test_all import AmiAnyTest
+ModuleNotFoundError: No module named 'test.test_all'
+
+
+======================================================================
+ERROR: test_file (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_file
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_file.py", line 11, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_headless (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_headless
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_headless.py", line 15, in <module>
+    from test.test_all import AmiAnyTest
+ModuleNotFoundError: No module named 'test.test_all'
+
+
+======================================================================
+ERROR: test_html (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_html
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_html.py", line 33, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_integrate (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_integrate
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_integrate.py", line 17, in <module>
+    from pyamihtmlx.ami_nlp import AmiNLP
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\site-packages\pyamihtmlx-0.1.7a3-py3.8.egg\pyamihtmlx\ami_nlp.py", line 16, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_jeor (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_jeor
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_jeor.py", line 7, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_nlp (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_nlp
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_nlp.py", line 7, in <module>
+    from pyamihtmlx.ami_nlp import AmiNLP
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\site-packages\pyamihtmlx-0.1.7a3-py3.8.egg\pyamihtmlx\ami_nlp.py", line 16, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_pdf (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_pdf
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_pdf.py", line 20, in <module>
+    import test.test_all
+ModuleNotFoundError: No module named 'test.test_all'
+
+
+======================================================================
+ERROR: test_pyamix (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_pyamix
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_pyamix.py", line 10, in <module>
+    from test.test_all import AmiAnyTest
+ModuleNotFoundError: No module named 'test.test_all'
+
+
+======================================================================
+ERROR: test_svg (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_svg
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_svg.py", line 8, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_un (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_un
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_un.py", line 28, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_util (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_util
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_util.py", line 16, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_wikidata (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_wikidata
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_wikidata.py", line 14, in <module>
+    from test.resources import Resources
+ModuleNotFoundError: No module named 'test.resources'
+
+
+======================================================================
+ERROR: test_xml (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_xml
+Traceback (most recent call last):
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lilia\AppData\Local\Programs\Python\Python38\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\lilia\Documents\GitHub\pyamihtml\test\test_xml.py", line 7, in <module>
+    from test.test_all import AmiAnyTest
+ModuleNotFoundError: No module named 'test.test_all'
+
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.010s
+
+FAILED (errors=15)
+
+C:\Users\lilia\Documents\GitHub\pyamihtml\test>
+C:\Users\lilia\Documents\GitHub\pyamihtml\test>pip show pyamihtmlx
+Name: pyamihtmlx
+Version: 0.1.7a3
+Summary: pdf2html converter and enhancer ; processes UN/IPCC and UNFCCC documents
+Home-page: https://github.com/petermr/pyamihtml
+Author: Peter Murray-Rust
+Author-email: petermurrayrust@googlemail.com
+License: Apache2
+Location: c:\users\lilia\appdata\local\programs\python\python38\lib\site-packages\pyamihtmlx-0.1.7a3-py3.8.egg
+Requires: lxml, nltk, numpy, pandas, pdfminer3, pdfplumber, Pillow, pyvis, requests, scikit-learn, selenium, setuptools, webdriver-manager
+Required-by:
+
+C:\Users\lilia\Documents\GitHub\pyamihtml\test>
